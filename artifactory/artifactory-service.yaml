@@ -13,4 +13,4 @@ spec:
     targetPort: 8081
     nodePort: 31010
     name: ui
-  type: NodePort
+  type: LoadBalancer
