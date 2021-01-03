@@ -14,7 +14,7 @@ spec:
     targetPort: 8080
     nodePort: 31000
     name: ui
-  type: NodePort
+  type: LoadBalancer
 ---
 apiVersion: v1
 kind: Service
